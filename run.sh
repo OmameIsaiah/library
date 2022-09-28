@@ -2,7 +2,7 @@
 echo "Compiling project"
 mvn compile
 echo "Building artifact"
-mvn clean install
+mvn clean package
 
 echo "Application built successfully"
 
