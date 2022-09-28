@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 import org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration;
 import org.springframework.context.annotation.PropertySource;
 
-//@PropertySource(value = "file:/opt/appdocs/jenkins/library/application.properties", ignoreResourceNotFound = true)
+@PropertySource(value = "file:/opt/appdocs/jenkins/library/application.properties", ignoreResourceNotFound = true)
 
-@PropertySource(value = "file:C:\\SwipeTech\\Projects\\APPLICATION_PROPERTIES\\library\\application.properties", ignoreResourceNotFound = true)
+//@PropertySource(value = "file:C:\\SwipeTech\\Projects\\APPLICATION_PROPERTIES\\library\\application.properties", ignoreResourceNotFound = true)
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class, SecurityFilterAutoConfiguration.class})
 
