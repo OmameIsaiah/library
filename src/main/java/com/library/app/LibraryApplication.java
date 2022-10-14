@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 import org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration;
 import org.springframework.context.annotation.PropertySource;
 
-@PropertySource(value = "file:/opt/appdocs/test/application.properties", ignoreResourceNotFound = true)
-//@PropertySource(value = "file:/opt/appdocs/test/conf/application.properties", ignoreResourceNotFound = true)
+@PropertySource(value = "file:/opt/appdocs/test/conf/application.properties", ignoreResourceNotFound = true)
 
 //@PropertySource(value = "file:C:\\SwipeTech\\Projects\\APPLICATION_PROPERTIES\\library\\application.properties", ignoreResourceNotFound = true)
 
